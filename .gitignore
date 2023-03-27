@@ -1,0 +1,43 @@
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+logs/
+*.log
+
+# macOS
+.DS_Store
+
+# Visual Studio Code
+.vscode/
+*.code-workspace
+
+# IDE, Editor, and OS files
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw*
+*.bak
+*.cache
+*.bak
+*.lock
+*.tmp
+*.exe
+*.log
+*.out
+*.pid
+*.pyc
+*.sqlite
+*.dll
+*.DS_Store
+*.tgz
+*.zip
+*.gz
+*.env
+
+# Dependency directories
+bower_components/
+jspm_packages/
