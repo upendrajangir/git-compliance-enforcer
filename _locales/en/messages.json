@@ -1,0 +1,23 @@
+{
+  "extensionName": {
+    "message": "Code Restrictor"
+  },
+  "extensionDescription": {
+    "message": "This extension prevents users from uploading or copying code on specified websites."
+  },
+  "optionsTitle": {
+    "message": "Code Restrictor Options"
+  },
+  "optionsDescription": {
+    "message": "Enter a list of websites (one per line) where you want to block code uploads and copies:"
+  },
+  "optionsPlaceholder": {
+    "message": "e.g. example.com or https://example.com"
+  },
+  "optionsSaveButton": {
+    "message": "Save"
+  },
+  "optionsStatus": {
+    "message": "Options saved."
+  }
+}

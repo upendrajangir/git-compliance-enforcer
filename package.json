@@ -1,0 +1,36 @@
+{
+    "name": "code-guard",
+    "version": "1.0.0",
+    "description": "CodeGuard is a security-focused Chrome extension that helps prevent unauthorized copying or uploading of your code. With CodeGuard, you can easily block file uploads and copy events on websites of your choosing, ensuring that your code remains safe and secure. The extension is fully customizable and provides easy-to-use options for managing blocked sites. With its user-friendly interface and robust security features, CodeGuard is a must-have tool for developers and businesses looking to protect their intellectual property.",
+    "author": "UD",
+    "license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/upendrajangir/code-guard.git"
+    },
+    "scripts": {
+      "build": "gulp build",
+      "test": "jest --coverage",
+      "lint": "eslint src",
+      "prettier": "prettier --write src/**/*.js",
+      "watch": "gulp watch",
+      "dev": "concurrently \"npm run watch\" \"npm run lint\""
+    },
+    "dependencies": {
+      "jquery": "^3.6.0",
+      "lodash": "^4.17.21"
+    },
+    "devDependencies": {
+      "eslint": "^7.30.0",
+      "gulp": "^4.0.2",
+      "gulp-babel": "^8.0.0",
+      "gulp-concat": "^2.6.1",
+      "gulp-rename": "^2.0.0",
+      "gulp-sass": "^4.1.0",
+      "gulp-uglify": "^3.0.2",
+      "jest": "^27.2.0",
+      "prettier": "^2.3.2",
+      "concurrently": "^6.3.0"
+    }
+  }
+  
